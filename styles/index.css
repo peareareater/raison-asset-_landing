@@ -1,0 +1,19 @@
+@import "fonts/index.css";
+@import "blocks/title/index.css";
+@import "blocks/text/index.css";
+@import "blocks/main/index.css";
+@import "blocks/section-card/index.css";
+@import "blocks/flag/index.css";
+@import "blocks/link/index.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.body {
+  background: #f8f9fa;
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+}

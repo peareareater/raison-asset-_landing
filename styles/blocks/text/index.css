@@ -1,0 +1,21 @@
+.text_theme_black {
+  color: #404040;
+}
+
+.text_theme_gray {
+  color: #9e9e9e;
+}
+
+.text_size_default {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.176px;
+}
+
+@media all and (min-width: 1440px) {
+  .text_size_default {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.198px;
+  }
+}

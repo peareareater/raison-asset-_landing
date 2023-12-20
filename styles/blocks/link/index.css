@@ -1,0 +1,30 @@
+.link {
+  text-decoration: none;
+  display: block;
+}
+
+.link_theme_black {
+  color: #404040;
+}
+
+.link_size_default {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.176px;
+}
+
+.link:last-of-type {
+  margin-bottom: 8px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+@media all and (min-width: 1440px) {
+  .link_size_default {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.198px;
+  }
+}

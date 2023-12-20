@@ -1,0 +1,35 @@
+.title {
+  text-align: center;
+}
+
+.title_theme_black {
+  color: #0a0a0a;
+}
+
+.title_size_large {
+  font-size: 28px;
+  letter-spacing: -0.588px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.title_size_medium {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: -0.34px;
+}
+
+@media all and (min-width: 1440px) {
+  .title_size_medium {
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.588px;
+  }
+  .title_size_large {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.44px;
+  }
+}
